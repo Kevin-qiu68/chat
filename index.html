@@ -8,7 +8,7 @@
     <h1>Chat</h1>
     <script>
         var xhr = new XMLHttpRequest();
-        xhr.readyState = function(e){
+        xhr.onreadystatechange = function(e){
             if(xhr.readyState==4){
                     alert('调用接口成功啦：'+xhr.responseText)
             }
