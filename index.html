@@ -10,9 +10,7 @@
         var xhr = new XMLHttpRequest();
         xhr.readyState = function(e){
             if(xhr.readyState==4){
-                if (xhr.status ==200){
-                    alert('调用接口成功：'+xhr.responseText)
-                }
+                    alert('调用接口成功啦：'+xhr.responseText)
             }
         }
         xhr.open('GET',"https://vhkcgzeoubxynytbxmjehm77km0jomsh.lambda-url.us-east-1.on.aws/")
