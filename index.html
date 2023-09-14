@@ -6,15 +6,12 @@
 </head>
 <body>
     <h1>Chat</h1>
-    <script>
-        var xhr = new XMLHttpRequest();
-        xhr.onreadystatechange = function(e){
-            if(xhr.readyState==4){
-                    alert('调用接口成功啦：'+xhr.responseText)
-            }
-        }
-        xhr.open('GET',"https://vhkcgzeoubxynytbxmjehm77km0jomsh.lambda-url.us-east-1.on.aws/")
-        xhr.send();
-    </script>
+    <input type="text" name="name">
+    <button>submit</button>
+    <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
 </body>
 </html>
